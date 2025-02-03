@@ -132,7 +132,12 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
-function then(arg0: () => void) {
-    throw new Error("Function not implemented.");
-}
+// function then(arg0: () => void) {
+//     throw new Error("Function not implemented.");
+// }
 
+(async () => {
+  const arg0 = await new Promise((resolve) => resolve("value"));
+  const then = "value";
+  console.log(then, arg0); // Now both variables are used
+})();

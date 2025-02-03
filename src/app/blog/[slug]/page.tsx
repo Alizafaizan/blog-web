@@ -131,7 +131,7 @@ const BlogPost = async ({ params }: Params) => {
           <h1 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4">
             {data.title}
           </h1>
-          <p className="text-gray-600 leading-relaxed text-base md:text-lg">
+          <p className="text-gray-600 leading-relaxed text-base md:text-lg ">
             {data.description}
           </p>
         </div>
